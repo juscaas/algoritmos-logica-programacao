@@ -1,0 +1,22 @@
+algoritmo "Desconto 25% dia 10"
+
+var
+  Dia, Produto, Desconto: real 
+
+inicio
+
+  escreval("Valor do produto: ")
+  leia(Produto)
+  escreval("Qual o dia?")
+  Leia(Dia)
+
+  se(Dia = 10) entao
+  Desconto <- Produto - Produto*0.25
+  escreval("Produto sai por: ", Desconto)
+
+  fimse
+  se(Dia <> 10) entao
+escreval("Produto sai por: ", Produto)
+fimse
+
+fimalgoritmo

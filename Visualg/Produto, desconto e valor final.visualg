@@ -1,0 +1,24 @@
+algoritmo "Produto, desconto e valor final"
+
+var
+  Dia, Produto, Desconto, Cnt_desconto: real 
+
+inicio
+
+  escreval("Valor do produto: ")
+  leia(Produto)
+  escreval("Qual o dia?")
+  Leia(Dia)
+
+  se(Dia = 10) entao
+  Desconto <- Produto - Produto*0.25
+  Cnt_desconto <- Produto*0.25
+  escreval("Produto que sai por: ", Produto)
+  escreval("Com desconto de: ", Cnt_desconto)
+  escreval("Fica por: ", Desconto)
+
+  senao
+escreval("Produto sai por: ", Produto)
+fimse
+
+fimalgoritmo

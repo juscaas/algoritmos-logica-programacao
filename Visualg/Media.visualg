@@ -1,0 +1,18 @@
+algoritmo "Media"
+
+var
+  nome: caractere
+  nota1, nota2, media: real
+
+inicio
+
+  escreval("Digite seu nome: ")
+  leia(nome)
+  escreval("Digite a 1ª Nota: ")
+  leia(nota1)
+  escreval("Digite a 2ª Nota: ")
+  leia(nota2)
+  media <-(nota1+nota2)/2
+  escreval(nome, " A média é ", media)
+
+fimalgoritmo
